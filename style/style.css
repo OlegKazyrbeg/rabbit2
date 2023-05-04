@@ -971,7 +971,7 @@ a{
 
     .contact-social_mail,
     .contact-social_vk{
-        font-size: 11px;
+        font-size: 14px;
         padding: 25px 20px;
     }
 
@@ -998,6 +998,20 @@ a{
         text-align: center;
         width: 100%;
     }
+
+    .contact-social_mail,
+    .contact-social_vk{
+        display: block;
+        text-align: center;
+    }
+
+    .contact-social{
+        margin-top: -15px;
+    }
+
+    .contact-social_vk{
+       margin: 0 0 15px 0;
+    }
 }
 
 @media (max-width: 390px){
@@ -1016,7 +1030,6 @@ a{
 
     .contact-social_mail,
     .contact-social_vk{
-        display: inline-block;
         padding: 15px 20px;
     }
 }
