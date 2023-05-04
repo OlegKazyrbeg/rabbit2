@@ -957,7 +957,7 @@ a{
     }
 
     .contact-image iframe{
-        width: 350px;
+        width: 100%;
     }
 
     .info-contact h3{
@@ -1004,7 +1004,19 @@ a{
     .container{
         max-width: 100%;
     }
+
     .back{
         transform: translate(-8%, -5%);
+    }
+
+    .contact-social_mail img,
+    .contact-social_vk img{
+        display: none;
+    }
+
+    .contact-social_mail,
+    .contact-social_vk{
+        display: inline-block;
+        padding: 15px 20px;
     }
 }
