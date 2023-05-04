@@ -491,25 +491,25 @@ a{
     }
 
     .first{
-        background: url('/img/slider1.jpeg') 300px no-repeat;
+        background: url('img/slider1.jpeg') 300px no-repeat;
         background-size: cover;
         box-shadow: inset 700px 0px 350px rgba(255,255,255, 1);
     }
 
     .second{
-        background: url('/img/slider2.jpg') 230px no-repeat;
+        background: url('img/slider2.jpg') 230px no-repeat;
         background-size: cover;
         box-shadow: inset 700px 0px 350px rgba(255,255,255, 1);
     }
 
     .third{
-        background: url('/img/slider3.jpg') 230px no-repeat;
+        background: url('img/slider3.jpg') 230px no-repeat;
         background-size: cover;
         box-shadow: inset 700px 0px 350px rgba(255,255,255, 1);
     }
 
     .four{
-        background: url('/img/slider4.jpg')  no-repeat;
+        background: url('img/slider4.jpg')  no-repeat;
         background-size: cover;
         box-shadow: inset 700px 0px 350px rgba(255,255,255, 1);
     }
@@ -556,7 +556,7 @@ a{
 }
 
 .back-call_row {
-    background: url('/img/pngimg.com\ -\ iphone_PNG5740.png') no-repeat;
+    background: url('img/pngimg.com\ -\ iphone_PNG5740.png') no-repeat;
     background-size: contain;
     background-position: right;
     display: flex;
@@ -760,7 +760,7 @@ a{
     }
 
     .back-call_row{
-        background: url('/img/pngimg.com\ -\ iphone_PNG5740.png') 450px 0px no-repeat;
+        background: url('img/pngimg.com\ -\ iphone_PNG5740.png') 450px 0px no-repeat;
         background-size: contain;
         background-color: white;
     }
