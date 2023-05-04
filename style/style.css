@@ -18,7 +18,6 @@ html{
 
 
 
-
 /* --- modal --- */
 .wrapper-window {
     position: fixed;
@@ -77,7 +76,7 @@ html{
 }
 
 .wrapper-window__button {
-    display: block;
+    display: inline-block;
     color: white;
     font-size: 18px;
     background-color:rgb(93, 141, 93);
@@ -86,8 +85,7 @@ html{
     border-radius: 30px;
     border: 1px solid rgb(93, 141, 93);
     transition: 0.2s;
-    margin-top: 30px;
-    margin-left: auto;
+    margin-top: 15px;
     cursor: pointer;
 }
 
@@ -813,6 +811,10 @@ a{
         text-align: center;
     }
 
+    .back-call_btn{
+        width: 100%;
+    }
+
     .back-call_info{
         padding: 50px;
     }
@@ -833,10 +835,6 @@ a{
         justify-content: space-evenly;
     }
 
-    .btn-call{
-        transform: translateX(31%);
-    }
-
     .services-title,
     .back-call_title,
     .contact-title{
@@ -846,32 +844,6 @@ a{
     .menu-wrapper_num,
     .menu-wrapper_button{
         display: none;
-    }
-
-    .nav-menu{
-        display: none;
-        position: fixed;
-        flex-direction: column;
-        justify-content: flex-start;
-        right: 0;
-        top: 0;
-        width: 100%;
-        min-height: 100vh;
-        background-color: rgba(0, 0, 0, 0.4);
-        backdrop-filter: blur(10px);
-        padding-top: 90px;
-    }
-
-    .nav-menu_item a{
-        color: white;
-        padding: 0;
-    }
-
-    .nav-menu_item{
-        width: 100%;
-        border-bottom: 1px solid #646464;
-        padding: 41px 0 10px 0;
-        text-align: center;
     }
 
     .menu-wrapper_button_burger{
@@ -885,8 +857,6 @@ a{
         border: 1px solid rgb(93, 141, 93);
         transition: 0.2s;
         cursor: pointer;
-        margin-top: 41px;
-        transform: translateX(307px);
     }
 
     .menu-wrapper_button_burger:active{
@@ -896,6 +866,23 @@ a{
 
     .menu-wrapper{
         border: none;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .show-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #7474747e;
+        backdrop-filter: blur(10px);
+        width: 100%;
+        height: 100vh;
+        padding: 90px 20px 0 20px;
+        z-index: 2;
     }
 
     .menu-open{
@@ -908,10 +895,22 @@ a{
     .menu-close{
         display: block;
         cursor: pointer;
+        transform: translate(75px, -15px);
     }
 
-    .show-menu{
-        display: block;
+    .nav-menu_item{
+        padding: 40px 0 10px 0;
+        border-bottom: 1px solid #8b8b8b;
+        text-align: center;
+    }
+
+    .nav-menu_item a{
+        color: white;
+    }
+
+    .menu-wrapper_button_burger{
+        width: 100%;
+        margin-top: 40px;
     }
 }
 
@@ -957,10 +956,6 @@ a{
         font-size: 11px;
     }
 
-    .back-call_btn{
-        transform: translateX(-20px);
-    }
-
     .contact-image iframe{
         width: 350px;
     }
@@ -977,22 +972,39 @@ a{
     .contact-social_mail,
     .contact-social_vk{
         font-size: 11px;
+        padding: 25px 20px;
     }
 
     .contact-social_mail img,
     .contact-social_vk img{
         margin-right: 5px;
+        width: 20px;
     }
 
     .wrapper-window__block{
         width: 70%;
     }
 
-    .menu-wrapper_button_burger{
-        transform: translateX(140px);
+    .wrapper-window__title{
+        font-size: 20px;
     }
 
-    .nav-menu_item{
-        transform: translatex(-35px);
+    .wrapper-window__block span{
+        font-size: 16px;
+    }
+
+    .wrapper-window__button{
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 390px){
+    .container{
+        max-width: 100%;
+    }
+    .back{
+        transform: translate(-8%, -5%);
     }
 }

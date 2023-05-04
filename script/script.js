@@ -3,6 +3,14 @@ let modalBlock = document.getElementById('wrapper-window');
 let btnOpen = document.getElementById('open');
 let btnClose = document.getElementById('close');
 let btnOpenModal = document.querySelector('.menu-wrapper_button_burger')
+let navItem = document.querySelectorAll('.nav-menu_item')
+
+navItem.forEach(item =>{
+    if(this.item){
+        let modalBlock = document.getElementById('wrapper-window');
+        modalBlock.classList.remove('wrapper-window__active')
+    }
+})
 
 btnOpen.onclick = function(){
     modalBlock.classList.toggle('wrapper-window__active')
