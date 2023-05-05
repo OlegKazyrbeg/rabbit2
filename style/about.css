@@ -429,6 +429,24 @@ a{
     .about__info{
         padding: 40px 35px 75px 35px;
     }
+
+    .wrapper-window__block{
+        width: 70%;
+    }
+
+    .wrapper-window__title{
+        font-size: 16px;
+    }
+
+    .wrapper-window__block span{
+        font-size: 12px;
+    }
+
+    .wrapper-window__button{
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+    }
 }
 
 
