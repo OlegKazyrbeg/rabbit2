@@ -760,7 +760,7 @@ a{
     }
 
     .back-call_row{
-        background: url(..img/pngimg.com\ -\ iphone_PNG5740.png) 450px 0px no-repeat;
+        background: url(../img/pngimg.com\ -\ iphone_PNG5740.png) 450px 0px no-repeat;
         background-size: contain;
         background-color: white;
     }
@@ -972,7 +972,7 @@ a{
     .contact-social_mail,
     .contact-social_vk{
         font-size: 14px;
-        padding: 25px 20px;
+        padding: 15px 20px;
     }
 
     .contact-social_mail img,
@@ -982,7 +982,7 @@ a{
     }
 
     .wrapper-window__block{
-        width: 70%;
+        width: 90%;
     }
 
     .wrapper-window__title{

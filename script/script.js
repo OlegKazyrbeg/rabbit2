@@ -3,18 +3,17 @@ let modalBlock = document.getElementById('wrapper-window');
 let btnOpen = document.getElementById('open');
 let btnClose = document.getElementById('close');
 let btnOpenModal = document.querySelector('.menu-wrapper_button_burger')
-let navItem = document.querySelectorAll('.nav-menu_item')
-
-navItem.forEach(item =>{
-    if(this.item){
-        let modalBlock = document.getElementById('wrapper-window');
-        modalBlock.classList.remove('wrapper-window__active')
-    }
-})
+let btnDoctor = document.querySelectorAll('.card__doctor__btn')
 
 btnOpen.onclick = function(){
     modalBlock.classList.toggle('wrapper-window__active')
 }
+
+btnDoctor.forEach(item =>{
+    item.onclick = function(){
+        modalBlock.classList.toggle('wrapper-window__active')
+    }
+})
 
 btnOpenModal.onclick = function(){
     modalBlock.classList.toggle('wrapper-window__active')
