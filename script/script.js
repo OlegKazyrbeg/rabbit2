@@ -62,12 +62,21 @@ callWin.reveal('.back-call', {delay:200, origin: 'bottom'})
 let menuOpen = document.querySelector('.menu-open')
 let menuClose = document.querySelector('.menu-close')
 
+
 menuOpen.onclick = function(){
     let navMenu = document.querySelector('.nav-menu');
-    navMenu.classList.toggle('show-menu')
+    navMenu.classList.toggle('show-menu');
+    
+
+    let lock = document.getElementById('body')
+    lock.classList.toggle('lock');
 }
 
 menuClose.onclick = function(){
     let navMenu = document.querySelector('.nav-menu');
-    navMenu.classList.remove('show-menu')
+    navMenu.classList.remove('show-menu');
+
+
+    let lock = document.getElementById('body')
+    lock.classList.remove('lock');
 }
