@@ -986,7 +986,7 @@ a{
     }
 
     .wrapper-window__block{
-        width: 90%;
+        width: 90%
     }
 
     .wrapper-window__title{
@@ -999,7 +999,6 @@ a{
 
     .wrapper-window__button{
         font-size: 12px;
-        text-align: center;
         width: 100%;
     }
 
